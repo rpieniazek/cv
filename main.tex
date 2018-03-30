@@ -6,7 +6,7 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
 \moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
@@ -19,7 +19,7 @@
 
 % adjust the page margins
 \usepackage[scale=0.9]{geometry}
-\setlength{\hintscolumnwidth}{3.5cm}                % if you want to change the width of the column with the dates
+\setlength{\hintscolumnwidth}{4cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
@@ -48,59 +48,36 @@
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
-%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
 \section{Education}
-\cventry{2013--2018}{Computer Science, Faculty of Electronics }{Wrocław University of Technology}{}{}{}
+\cventry{2013--2018}{Computer Science, Faculty of Electronics}{Wrocław University of Technology}{}{}{}
 
 
  % arguments 3 to 6 can be left empty
 %\cventry{2010--2013}{Math faculty}{3rd High School}{Wrocław}{\textit{}}{}
 
-
-
 \section{Experience}
-
-\cventry{2016.06-now}{Junior Software Developer}{CrazyCall}{Wrocław}{}{Developing startup project for small call centers.
-\begin{itemize}
-\item CrazyCall is a full SaaS application. It allows managers of call centers to create an manage advertisement campaign. It is possible for agents to call customers directly from the browser. I am responsible for designing and developing modules using Spring Framework within Hibernate nad Jooq solutions. I am also involved in development of frontend interface.
-	\end{itemize}
+\cventry{2016.06-now}{CrazyCall}{Software Developer}{}{}{Developing cloud based SaaS project for call centers.
 }
 
-
-\cventry{2015.08--2016.06}{Java Developer}{Human-device Sp.z.o.o}{Wrocław}{}{Responsible for developing and maintaining Java projects. Mostly Spring MVC with Hibernate, but also Android applications.\newline{}%
- Main projects :%
-\begin{itemize}%
-\item Cypher.dog - www.cypher.dog \\
- This project allows users to share encrypted files in an easy way. It consists of multiple modules: 
-	\begin{itemize}%
-	  \item Web based application, responsible for storing user's public keys 
-	  \item desktop applications for all platforms, including Windows, Mac and Linux
-	 \end{itemize}
-	 My duties were developing and maintaining web application. Also, I took care about REST service architecture to allow desktops connecting with backend. 
-\item Green Alerts\\
-	This Android application supports drivers during the trip, warning about dangers. Specially, I was responsible for developing GPS and network layer.
-\end{itemize}}
-\cventry{2015.01-2015.07}{Java Intern}{CodeRunner Sp.z.o.o}{Wrocław}{}{Implementing an Android mobile application, within backend based on SpringMVC framework. Hibernate, Maven and Thymeleaf were also used.
-\begin{itemize}
-	\item GigsMap - https://play.google.com/store/apps/details?id=pl.javaparty.concerfinder\\
-		Application aggegates performances from famous websites and presents them to user with accessible form.
-\end{itemize}
+\cventry{2017.04-now}{Software Development Academy}{Java Trainer}{}{}{Enthusiastically share knowledge with Java course participants.
 }
+
+\cventry{2015.08-2016.06}{Human Device}{Junior Java Developer}{}{}{Involved in the development of Android and web applications as a part time employee . 
+}
+
 \section{Languages}
 \cvitem{English}{C1 - fluent speaking and writing}
 \cvitem{German}{B1 - proficiency on the basis of intermediate}
 
 \section{Skills}
-\cvitem{Backend Technologies}{Java, SpringMVC, SpringBoot, SpringData, Hibernate, JOOQ} 
-\cvitem{Frontend Technologies}{Javascript, JQuery, Thymeleaf, AngularJS, Bootstrap, CSS}
-\cvitem{Mobile}{Android SDK, Retrofit, Robospice, Dagger, ButterKnife}
-\cvitem{Databases}{MySQL, Postgres, Redshift, Redis, Dynamo}
-\cvitem{Build Tools}{Maven, Gradle, Grunt}
-\cvitem{Version control systems}{git, svn}
-\cvitem{IDEs}{Eclipse, InteliJ Idea}
+\cvitem{Backend Technologies}{Java8, Spring, JOOQ, Hibernate} 
+\cvitem{Frontend Technologies}{Javascript, JQuery, AngularJS, AngularIO, React}
+\cvitem{Databases}{MySQL, PostgreSQL, Redshift, Redis, Dynamo}
+\cvitem{IDEs}{Eclipse, InteliJ Idea, AndroidStudio, XCode}%
+\cvitem{Others}{Git, Maven, Gradle, AndroidSDK, AWS, Docker}
 
 
 \section{Interests}
